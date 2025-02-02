@@ -74,4 +74,5 @@ We can conclude that a higher level of education is strongly correlated with a h
 
 <img width="450" alt="image" src="https://github.com/RaulBande/Salary-Data/blob/main/Screenshot%202025-02-02%20142629.png?raw=true">              <img width="450" alt="image" src="https://github.com/RaulBande/Salary-Data/blob/main/Screenshot%202025-02-02%20142637.png?raw=true">
 
+As the number of years of experience increases, the average salary also tends to rise. However, it appears that once individuals reach 16 years of experience, their salary remains relatively stable, continuing at a similar level until reaching 37 years of experience.
 
