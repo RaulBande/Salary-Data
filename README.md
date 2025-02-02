@@ -45,7 +45,7 @@ limit 10;
 
 **Answer:**
 
-<img width="900" alt="image" src=" https://github.com/RaulBande/Salary-Data/blob/main/Screenshot%202025-02-02%20133750.png?raw=true ">
+<img width="1000" alt="image" src=" https://github.com/RaulBande/Salary-Data/blob/main/Screenshot%202025-02-02%20133750.png?raw=true">
 
 It is evident that the job titles of "Chief Executive Officer (C.E.O.)" and "Chief Technology Officer (C.T.O.)" typically command the highest average salaries among various executive positions.
 
