@@ -64,15 +64,18 @@ ORDER BY Avg_Salary DESC;
 
 We can conclude that a higher level of education is strongly correlated with a higher average salary. Specifically, the salary difference between individuals with a "High School" education and those holding a "PhD" is ₹128,978.14 INR.
 
-### 5. 
+### 5. What seems to be the salary trend based on the years of experience people have ?
 
 ````sql
-
+SELECT "Years of Experience", ROUND(AVG("Salary"),2) AS Avg_Salary
+FROM salary_data
+GROUP BY "Years of Experience"
+ORDER BY "Years of Experience" ASC;
 ````
 
 **Answer:**
 
 <img width="450" alt="image" src="https://github.com/RaulBande/Salary-Data/blob/main/Screenshot%202025-02-02%20142629.png?raw=true">              <img width="450" alt="image" src="https://github.com/RaulBande/Salary-Data/blob/main/Screenshot%202025-02-02%20142637.png?raw=true">
 
-As the number of years of experience increases, the average salary also tends to rise. However, it appears that once individuals reach 16 years of experience, their salary remains relatively stable, continuing at a similar level until reaching 37 years of experience.
+As the number of years of experience increases, the average salary also tends to rise. However, it appears that once individuals reach 19 years of experience, their salary remains relatively stable, continuing at a similar level until reaching 37 years of experience.
 
