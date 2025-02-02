@@ -33,4 +33,20 @@ WHERE age IS NULL
    OR "Salary" IS NULL;
 ````
 
+### 3. What is the average salary by job title ?
+
+````sql
+SELECT "Job Title", AVG("Salary") AS Avg_Salary
+FROM salary_data
+GROUP BY "Job Title"
+ORDER BY Avg_Salary DESC
+limit 10;
+````
+
+**Answer:**
+
+<img width="900" alt="image" src=" ">
+
+It is evident that the job titles of "Chief Executive Officer (C.E.O.)" and "Chief Technology Officer (C.T.O.)" typically command the highest average salaries among various executive positions.
+
 
