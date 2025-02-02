@@ -16,5 +16,6 @@ FROM `idyllic-analyst-449413-g5.1.Salary_data;
 `````
 
 **Answer:**
-<img width="1000" alt="image" src="https://github.com/RaulBande/Salary-Data/blob/main/Screenshot%202025-02-02%20093610.png?raw=true">
+
+<img width="900" alt="image" src="https://github.com/RaulBande/Salary-Data/blob/main/Screenshot%202025-02-02%20093610.png?raw=true">
 
