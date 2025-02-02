@@ -72,6 +72,6 @@ We can conclude that a higher level of education is strongly correlated with a h
 
 **Answer:**
 
-<img width="500" alt="image" src="https://github.com/RaulBande/Salary-Data/blob/main/Screenshot%202025-02-02%20142629.png?raw=true">              <img width="500" alt="image" src=" ">
+<img width="300" alt="image" src="https://github.com/RaulBande/Salary-Data/blob/main/Screenshot%202025-02-02%20142629.png?raw=true">              <img width="500" alt="image" src=" ">
 
 
