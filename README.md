@@ -100,7 +100,7 @@ ORDER BY count_per_gender DESC;
 
 **Answer:**
 
-<img width="450" alt="image" src="">             <img width="450" alt="image" src="">
+<img width="450" alt="image" src="https://github.com/RaulBande/Salary-Data/blob/main/Screenshot%202025-02-02%20145516.png?raw=true">             <img width="450" alt="image" src="https://github.com/RaulBande/Salary-Data/blob/main/Screenshot%202025-02-02%20145422.png?raw=true">
 
 The Software Engineer role has the highest number of male employees, while the Data Scientist role has the highest number of female employees. Using the WHERE clause and the ILIKE operator, we can determine that the Full Stack Engineer role has the highest number of individuals who do not identify as male or female.
 
