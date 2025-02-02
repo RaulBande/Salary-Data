@@ -36,7 +36,7 @@ WHERE age IS NULL
 ### 3. What is the average salary by job title ?
 
 ````sql
-SELECT "Job Title", AVG("Salary") AS Avg_Salary
+SELECT "Job Title", ROUND(AVG("Salary"),2) AS Avg_Salary
 FROM salary_data
 GROUP BY "Job Title"
 ORDER BY Avg_Salary DESC
