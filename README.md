@@ -1,4 +1,4 @@
-# 📊 Salary Data Analysis (SQL)
+# 📊India Salary Data Analysis (SQL)
 
 ## 📌 Solution
 
@@ -52,7 +52,7 @@ It is evident that the job titles of "Chief Executive Officer (C.E.O.)" and "Chi
 ### 4. What is the salary distribution by education level ?
 
 ````sql
-SELECT "Education Level", AVG("Salary") AS Avg_Salary
+SELECT "Education Level", ROUND(AVG("Salary"),2) AS Avg_Salary
 FROM salary_data
 GROUP BY "Education Level"
 ORDER BY Avg_Salary DESC;
@@ -60,9 +60,9 @@ ORDER BY Avg_Salary DESC;
 
 **Answer:**
 
-<img width="500" alt="image" src="">
+<img width="500" alt="image" src="https://github.com/RaulBande/Salary-Data/blob/main/Screenshot%202025-02-02%20140827.png?raw=true">
 
-We can conclude that a higher education level is associated with a higher average salary, the difference from the "High School" level and the 'PhD' being 
+We can conclude that a higher education level is associated with a higher average salary, the difference from the "High School" level and the 'PhD' being 128978.14
 
 
 
