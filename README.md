@@ -1,1 +1,4 @@
-# Salary-Data
+# 📊 Salary Data Analysis (SQL)
+
+## 📌 Solution
+
