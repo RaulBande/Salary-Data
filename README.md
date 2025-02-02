@@ -47,7 +47,7 @@ limit 10;
 
 <img width="500" alt="image" src="https://github.com/RaulBande/Salary-Data/blob/main/Screenshot%202025-02-02%20140343.png?raw=true">
 
-It is evident that the job titles of "Chief Executive Officer (C.E.O.)" and "Chief Technology Officer (C.T.O.)" typically command the highest average salaries among various executive positions.
+It is evident that the job titles of "Chief Executive Officer (C.E.O.)" and "Chief Technology Officer (C.T.O.)" typically command the highest average salaries among various executive positions (₹250000.00 INR).
 
 ### 4. What is the salary distribution by education level ?
 
@@ -62,7 +62,7 @@ ORDER BY Avg_Salary DESC;
 
 <img width="500" alt="image" src="https://github.com/RaulBande/Salary-Data/blob/main/Screenshot%202025-02-02%20140827.png?raw=true">
 
-We can conclude that a higher education level is associated with a higher average salary, the difference from the "High School" level and the 'PhD' being 128978.14
+We can conclude that a higher level of education is strongly correlated with a higher average salary. Specifically, the salary difference between individuals with a "High School" education and those holding a "PhD" is ₹128,978.14 INR.
 
 
 
