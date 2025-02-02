@@ -79,3 +79,28 @@ ORDER BY "Years of Experience" ASC;
 
 As the number of years of experience increases, the average salary also tends to rise. However, it appears that once individuals reach 19 years of experience, their salary remains relatively stable, continuing at a similar level until reaching 37 years of experience.
 
+### 6. We can also find the gender distribution for each job title.
+
+````sql
+WITH gendercount AS (
+    SELECT 
+        "Job Title",
+        "Gender",
+        COUNT(*) AS count_per_gender
+    FROM salary_data
+    GROUP BY "Job Title", "Gender"
+)
+SELECT 
+    "Job Title",
+    "Gender",
+    count_per_gender
+FROM gendercount
+ORDER BY count_per_gender DESC;
+````
+
+**Answer:**
+
+<img width="450" alt="image" src="">             <img width="450" alt="image" src="">
+
+The Software Engineer role has the highest number of male employees, while the Data Scientist role has the highest number of female employees. Using the WHERE clause and the ILIKE operator, we can determine that the Full Stack Engineer role has the highest number of individuals who do not identify as male or female.
+
