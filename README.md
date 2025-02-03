@@ -2,7 +2,7 @@
 
 ## 📌 Solution
 
-### 1. First we can search for missing values.
+###  First we can search for missing values.
 
 ````sql
 SELECT 
@@ -21,7 +21,7 @@ FROM `idyllic-analyst-449413-g5.1.Salary_data;
 
 There are 9 missing values, we can drop them as they dont impact the databse, which has 6705 rows
 
-### 2. We can delete the missing values.
+###  We can delete the missing values.
 
 ````sql
 DELETE FROM salary_data
