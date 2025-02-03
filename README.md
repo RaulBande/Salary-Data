@@ -77,7 +77,7 @@ ORDER BY Avg_Salary DESC;
 
 <img width="550" alt="image" src="https://github.com/RaulBande/Salary-Data/blob/main/Screenshot%202025-02-03%20170924.png?raw=true">
 
-We can conclude that a higher level of education is strongly correlated with a higher average salary. Specifically, the salary difference between individuals with a "High School" education and those holding a "PhD" is ₹128,978.14 INR.
+We can conclude that a higher level of education is strongly correlated with a higher average salary. Specifically, the salary difference between individuals with a "High School" education and those holding a "PhD" is ₹128,944.77 INR.
 
 ### 3. What seems to be the salary trend based on the years of experience people have ?
 
