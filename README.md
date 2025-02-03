@@ -33,7 +33,22 @@ WHERE age IS NULL
    OR "Salary" IS NULL;
 ````
 
-### 3. What is the average salary by job title ?
+### 3. The "Education Level" column contains inconsistencies, such as 'PhD' being written as 'phD,' which need to be corrected.
+
+````sql
+UPDATE salary_data
+SET "Education Level" = CASE
+    WHEN "Education Level" ILIKE 'phd' THEN 'Phd'
+    WHEN "Education Level" ILIKE 'Master''s' THEN 'Master''s Degree'
+    WHEN "Education Level" ILIKE 'Bachelor''s' THEN 'Bachelor''s Degree'
+    ELSE "Education Level"
+END;
+````
+
+### Now we can begin asking the questions !
+
+
+### 4. What is the average salary by job title ?
 
 ````sql
 SELECT "Job Title", ROUND(AVG("Salary"),2) AS Avg_Salary
@@ -49,7 +64,7 @@ limit 10;
 
 It is evident that the job titles of "Chief Executive Officer (C.E.O.)" and "Chief Technology Officer (C.T.O.)" typically command the highest average salaries among various executive positions (₹250000.00 INR).
 
-### 4. What is the salary distribution by education level ?
+### 5. What is the salary distribution by education level ?
 
 ````sql
 SELECT "Education Level", ROUND(AVG("Salary"),2) AS Avg_Salary
@@ -60,11 +75,11 @@ ORDER BY Avg_Salary DESC;
 
 **Answer:**
 
-<img width="500" alt="image" src="https://github.com/RaulBande/Salary-Data/blob/main/Screenshot%202025-02-02%20140827.png?raw=true">
+<img width="500" alt="image" src="">
 
 We can conclude that a higher level of education is strongly correlated with a higher average salary. Specifically, the salary difference between individuals with a "High School" education and those holding a "PhD" is ₹128,978.14 INR.
 
-### 5. What seems to be the salary trend based on the years of experience people have ?
+### 6. What seems to be the salary trend based on the years of experience people have ?
 
 ````sql
 SELECT "Years of Experience", ROUND(AVG("Salary"),2) AS Avg_Salary
@@ -79,7 +94,7 @@ ORDER BY "Years of Experience" ASC;
 
 As the number of years of experience increases, the average salary also tends to rise. However, it appears that once individuals reach 19 years of experience, their salary remains relatively stable, continuing at a similar level until reaching 37 years of experience.
 
-### 6. We can also find the gender distribution for each job title.
+### 7. We can also find the gender distribution for each job title.
 
 ````sql
 WITH gendercount AS (
