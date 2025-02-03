@@ -47,6 +47,7 @@ END;
 <br><br>
 ### Now it's time to ask questions !
 ***
+<br><br>
 ### 4. What is the average salary by job title ?
 
 ````sql
