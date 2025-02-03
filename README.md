@@ -44,9 +44,9 @@ SET "Education Level" = CASE
     ELSE "Education Level"
 END;
 ````
+<br><br>
+<p style="text-align: center;">### Now we can begin asking the questions !</p>
 
-
-### Now we can begin asking the questions !
 ***
 ### 4. What is the average salary by job title ?
 
