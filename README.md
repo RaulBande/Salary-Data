@@ -47,6 +47,7 @@ END;
 <br><br>
 <div style="text-align: center;">
   <p>What's up</p>
+  </div>
 
 
 ***
