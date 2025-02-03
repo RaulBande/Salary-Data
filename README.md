@@ -45,11 +45,7 @@ SET "Education Level" = CASE
 END;
 ````
 <br><br>
-<div style="text-align: center;">
-  <p>What's up</p>
-  </div>
-
-
+### Now it's time to ask questions !
 ***
 ### 4. What is the average salary by job title ?
 
