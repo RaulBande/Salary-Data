@@ -46,9 +46,7 @@ END;
 ````
 
 ### Now we can begin asking the questions !
-
-
-
+***
 ### 4. What is the average salary by job title ?
 
 ````sql
